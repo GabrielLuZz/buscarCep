@@ -1,24 +1,24 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
-  background-color: #f3f3f3;
+    background-color: #f3f3f3;
 }
 
 h2 {
-  color: rgb(36, 36, 36);
+    color: rgb(36, 36, 36);
 }
 
 .form-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #cep-form {
@@ -26,23 +26,60 @@ h2 {
 }
 
 button {
-  padding: 8px;
-  font-size: 14px;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: rgb(37, 37, 255);
-  color: #f1f1f1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(37, 37, 255);
+    color: #f1f1f1;
 }
 
 input {
-  padding: 8px;
-  font-size: 14px;
-  border-radius: 5px;
-  outline: none;
-  background-color: #e0e0e0;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e0e0e0;
 }
 
 span {
-  color: rgb(63, 63, 63);
-  height: 20px;
+    color: rgb(63, 63, 63);
+    height: 20px;
+}
+
+.show-response {
+    display: none;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(37, 37, 255);
+    padding: 20px 20px 20px;
+    border-radius: 7px;
+    width: 300px;
+}
+
+.show-error {
+    display: none;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(37, 37, 255);
+    padding: 20px 20px 20px;
+    border-radius: 7px;
+    width: 300px;
+}
+
+.response {
+    display: flex;
+}
+
+.response span {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.mostrar {
+    display: block;
 }
